@@ -1,0 +1,41 @@
+body {
+	background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+
+ul {
+	background-color: transparent;
+}
+
+#steuerungmitdetails {
+	border: 1px solid orange;
+	background-color: transparent;
+}
+#steuerungmitdetails ul {
+	margin-left: 1em;
+	padding-left: 0;
+}
+#steuerungmitdetails ul ul {
+	margin-left: 1em;
+	padding-left: 1em;
+}
+#steuerungmitdetails ul li {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+#steuerungmitdetails ul li li {
+	list-style-type: square;
+}
+
+#steuerungmitdetails details details {
+	background-color: #eee;
+	margin-left: 1em;
+}
+
+h1 {
+	text-align: center;
+}
+
+summary {
+	font-size: 20px;
+}
